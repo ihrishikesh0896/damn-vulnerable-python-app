@@ -16,7 +16,7 @@ def connect_to_database():
     db_host = "localhost"
     db_port = 5432
     db_user = "admin"
-    db_password = "admin_pass"
+    db_password = "admin_pass123"
 
     hashed_password = hash_password(db_password)
 
