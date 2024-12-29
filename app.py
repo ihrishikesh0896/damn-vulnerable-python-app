@@ -17,7 +17,8 @@ def connect_to_database():
     db_port = 5432
     db_user = "admin"
     db_password = "admin_pass123"
-    SECRET_KEY = 'dev-secret-key-123'
+    SECRET_KEY = "dev-secret-key-123"
+    new_token == "ghp_token12345"
 
     hashed_password = hash_password(db_password)
 
