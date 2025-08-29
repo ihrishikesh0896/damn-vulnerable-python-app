@@ -1,10 +1,10 @@
-app.py — Intentionally vulnerable demo app for Tracer `discover` testing
+# app.py — Intentionally vulnerable demo app for Tracer `discover` testing
 
-This script pulls in several libraries with known historical issues, and intentionally
-uses risky code paths so your runtime tracer can detect imports and execution.
-⚠️ For educational/testing purposes only. Do not expose to the internet.
-Recommended: Python 3.10 in a virtualenv.
-"""
+# This script pulls in several libraries with known historical issues, and intentionally
+# uses risky code paths so your runtime tracer can detect imports and execution.
+# ⚠️ For educational/testing purposes only. Do not expose to the internet.
+# Recommended: Python 3.10 in a virtualenv.
+
 
 import argparse
 import json
